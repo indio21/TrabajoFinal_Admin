@@ -4860,14 +4860,6 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 }
 
-.card-body-partido {
-  display: flex;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 1.25rem;
-}
-
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -11513,7 +11505,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
 .layout-footer-fixed .wrapper .main-footer {
   bottom: 0;
   left: 0;
-  /* position: fixed; */
+  position: fixed;
   right: 0;
   z-index: 1032;
 }
@@ -11533,7 +11525,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
 .layout-footer-fixed .wrapper .main-footer {
   bottom: 0;
   left: 0;
-  /* position: fixed; */
+  position: fixed;
   right: 0;
   z-index: 1032;
 }
@@ -11553,7 +11545,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-sm-footer-fixed .wrapper .main-footer {
     bottom: 0;
     left: 0;
-    /* position: fixed; */
+    position: fixed;
     right: 0;
     z-index: 1032;
   }
@@ -11572,7 +11564,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-md-footer-fixed .wrapper .main-footer {
     bottom: 0;
     left: 0;
-    /* position: fixed; */
+    position: fixed;
     right: 0;
     z-index: 1032;
   }
@@ -11591,7 +11583,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-lg-footer-fixed .wrapper .main-footer {
     bottom: 0;
     left: 0;
-    /* position: fixed; */
+    position: fixed;
     right: 0;
     z-index: 1032;
   }
@@ -11610,7 +11602,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
   .layout-xl-footer-fixed .wrapper .main-footer {
     bottom: 0;
     left: 0;
-    /* position: fixed; */
+    position: fixed;
     right: 0;
     z-index: 1032;
   }
@@ -35141,13 +35133,6 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
   position: relative;
 }
 
-.invoice-info {
-  display:flex;
-  flex-direction: row;
-  gap: 25px;
-  padding-bottom: 20px;
-}
-
 .invoice-title {
   margin-top: 0;
 }
@@ -45606,8 +45591,8 @@ blockquote.quote-gray-dark h6 {
     width: 100%;
   }
   .invoice-col {
-    display: flex;
-    flex-direction: row;
+    float: left;
+    width: 33.3333333%;
   }
   .table-responsive {
     overflow: auto;
